@@ -1,0 +1,68 @@
+form div { margin:5px 0;}
+.formtips{
+	width: auto;
+	margin:2px;
+	padding:2px;
+	font-size: 12px;
+	float:left;
+}
+.onError{
+    /*background: url(reg3.gif) no-repeat 0 center;*/
+	padding-left:0px;
+	color: #FF0000;
+	font-weight: bold;
+}
+.onSuccess{
+    /*background: url(reg4.gif) no-repeat 0 center;*/
+	padding-left:0px;
+	color: #000000;
+	font-weight: normal;
+}
+formtips.Error{
+	background: url(reg3.gif) no-repeat 0 center;
+	padding-left:25px;
+	color: #FF0000;
+	font-weight: bold;
+}
+formtips.Success{
+	background: url(reg4.gif) no-repeat 0 center;
+	padding-left:25px;
+	color: #000000;
+	font-weight: normal;
+}
+.high{
+    color:red;
+}
+.ErrorInput{
+	border: 1px dashed #FF0000;
+}
+
+
+.nav_line {
+    background-image: url(nav_line.gif);
+    background-repeat: no-repeat;
+    background-position: left center;
+    min-width: 75px !important;
+}
+.KKi1 {background:none !important;}
+.Column_Anchor {font-size:14px;}
+.hhh {font-size:14px;}
+.WP_VisitCount {display: inline;
+    font-size: 12px !important;
+    font-weight: normal !important;
+    color: #333 !important;
+}
+.wp_articlecontent {max-width:700px;}
+
+
+
+
+
+
+
+
+
+
+
+
+

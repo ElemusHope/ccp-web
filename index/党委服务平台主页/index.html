@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset ="utf-8" >
+	<link rel="stylesheet" type="text/css" href="./css/demo2.css"/>
+	<title>河北省人事代理党员之家</title>
+</head>
+<body>
+	<!-- body主体 -->
+	<div class="all" style="margin: 0px;">
+
+		<!-- 网站头部 -->
+		<div class="top" style="width: 100%;">
+			<!-- 网站头部图片，目前没有设计更换文字的功能 -->
+			<img src="./resource/background/top.png"/>
+
+			<!-- 网站下方两个栏 -->
+			<div class = "head" style="margin-bottom: 20px;">
+				<!-- 导航栏 -->
+				<div class = "nav" >
+					<ul style="width: 1000px;margin: 0 auto;margin-top: -5px;">
+	            		<li><a href="">网站首页</a></li>
+	            		<li><a href="">最新通知</a></li>
+	            		<li><a href="">网上公示</a></li>
+	            		<li><a href="">党建活动</a></li>
+	            		<li><a href="">党员文稿</a></li>         		 
+	            		<li><a href="">服务指南</a></li>         		 
+	            		<li><a href="">风采展示</a></li>         		 
+	            	</ul>
+				</div>
+				<!-- 通知栏 -->
+				<div class = "announce">	
+			        	<ul style="width: 1000px;margin: 0 auto;padding-top: 5px;padding-bottom: 5px;">
+			        		<li>最新通知 ： </li>
+			        		<li><a href="">2019年度 “双创路上党旗红” ————流动党员工艺专场招聘会即将开幕 [2019-2-22]</a></li>
+			        	</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- 网站中部主要内容 -->
+		<div class = "container" style=" width: 1000px; margin: 0 auto; ">
+			
+			<div class = "main_1" style=" margin-bottom: 20px; height: 350px;">
+				<div class = "diapo" style=" width: 48%; float: left;">
+					<div class="slideshow-container">
+					 	<div class="mySlides fade">
+						    <div class="numbertext">1 / 3</div>
+						    <img src="./resource/xi/xi1.jpg" style="object-fit: cover;height: 350px;">
+						    <div class="text"><span>习近平出席大会图集（一）</span></div>
+					  	</div>
+					 
+					  	<div class="mySlides fade">
+						    <div class="numbertext">2 / 3</div>
+						    <img src="./resource/xi/xi2.jpg" style="object-fit: cover;height: 350px;">
+						    <div class="text">习近平出席大会图集（二）</div>
+					  	</div>
+					 
+					  	<div class="mySlides fade">
+						    <div class="numbertext">3 / 3</div>
+						    <img src="./resource/xi/xi3.jpg" style="object-fit: cover;height: 350px;">
+						    <div class="text">习近平出席大会图集（三）</div>
+					  	</div>
+					 
+					  	<a class="prev" onclick="plusSlides(-1)">❮</a>
+					  	<a class="next" onclick="plusSlides(1)">❯</a>
+
+					  	<div style="text-align:center;position: absolute;bottom: 11px;right: 10px;">
+							<span class="dot" onclick="currentSlide(1)"></span> 
+							<span class="dot" onclick="currentSlide(2)"></span> 
+							<span class="dot" onclick="currentSlide(3)"></span> 
+						</div>
+					</div>
+			 
+
+					<script type="text/javascript">
+					
+						var slideIndex = 1;
+						showSlides(slideIndex);
+						 
+						function plusSlides(n) {
+						  showSlides(slideIndex += n);
+						}
+						 
+						function currentSlide(n) {
+						  showSlides(slideIndex = n);
+						}
+						 
+						function showSlides(n) {
+						  var i;
+						  var slides = document.getElementsByClassName("mySlides");
+						  var dots = document.getElementsByClassName("dot");
+						  if (n > slides.length) {slideIndex = 1} 
+						  if (n < 1) {slideIndex = slides.length}
+						  for (i = 0; i < slides.length; i++) {
+						      slides[i].style.display = "none"; 
+						  }
+						  for (i = 0; i < dots.length; i++) {
+						      dots[i].className = dots[i].className.replace(" active", "");
+						  }
+						  slides[slideIndex-1].style.display = "block"; 
+						  dots[slideIndex-1].className += " active";
+						}
+					</script>
+				</div>
+
+				<div class = "right" style=" width: 48%; float: left; margin-left: 4%">
+					<div class = "title_1">
+						<span class="font_title_1">党建活动</span> 
+						<span class="more_1"><a href="">更多...</a></span>
+					</div>
+
+					<div class="main_contain">
+						<div class="title_main">国际社会热议中国改革开放对世界影响</div> 
+						<div class="intro">　　 “再一次来到深圳，再次来到广东，我们就是要在这里向世界宣示：中国改革开放永不停步！下一个40年的中国，定当有让世界刮目相看的新成就！”
+						<a href=""> &#91;详细&#93;</a>
+						</div>
+					</div>
+
+		          	<div class = "list_contain">
+				      	<ul> 
+					        <li>
+					        	<div class="point"> · </div>
+					        	<div class = "list_contain_li"><a href="">【总书记讲话】习近平：在庆祝改革开放40周年大会上的讲话</a></div>
+					        	<div class= " date ">2018-12-18</div>
+					        	<div class="clear" style="clear:both"></div> 
+					        </li>
+					  		<li>
+					  			<div class="point"> · </div>
+					        	<div class = "list_contain_li"><a href="">【总书记讲话】习近平：中国改革开放永不停步！</a></div>
+					        	<div class= " date ">2018-12-18</div>
+					        	<div class="clear" style="clear:both"></div> 
+					        </li>
+				      		<li>
+				      			<div class="point"> · </div>
+					        	<div class = "list_contain_li"><a href="">【总书记讲话】习近平：高举新时代改革开放旗帜 把改革开放不断推向深入</a></div>
+					        	<div class= " date ">2018-12-18</div>
+					        	<div class="clear" style="clear:both"></div> 
+					        </li>
+				      		<li>
+				      			<div class="point"> · </div>
+					        	<div class = "list_contain_li"><a href="">【总书记讲话】习近平：推动共建“一带一路”走深走实造福人民</a></div>
+					        	<div class= " date ">2018-12-18</div>
+					        	<div class="clear" style="clear:both"></div> 
+					        </li>
+				      		<li>
+				      			<div class="point"> · </div>
+					        	<div class = "list_contain_li"><a href="">【总书记讲话】习近平对首个“中国医师节”作出重要指示</a></div>
+					        	<div class= " date ">2018-12-18</div>
+					        	<div class="clear" style="clear:both"></div> 
+					        </li>
+				      
+				      	</ul>
+		       
+		          	</div>
+		        </div>
+
+		        <div class="clear" style="clear:both"></div> 
+			</div>
+
+			<div class = "annoucePhoto" style="margin-bottom: 20px;">
+				<img src="./resource/background/middle_1.png"/>
+			</div>
+
+			<div class = "main_2" style="margin-bottom: 20px;">
+				<div class= "contain_2" style="width: 30%; float: left; ">
+					<div class = "title">
+						<span class="font_title">最新通知</span> 
+						<span class="more" style="font-size: 10px; margin: 5px;"><a href="">更多...</a></span>
+					</div>
+
+					<div class = "list_contain">
+				      	<ul> 
+					        <li>
+					        	<div class="point">　·　</div>
+					        	<div class = "list_contain_li"><a href="">【总书记讲话】习近平：在庆祝改革开放40周年大会上的讲话</a></div>
+					        	<div class="clear" style="clear:both"></div> 
+					        </li>
+					  		<li>
+					  			<div class="point"> 　·　 </div>
+					        	<div class = "list_contain_li"><a href="">【总书记讲话】习近平：中国改革开放永不停步！</a></div>
+					        	<div class="clear" style="clear:both"></div> 
+					        </li>
+				      		<li>
+				      			<div class="point"> 　·　 </div>
+					        	<div class = "list_contain_li"><a href="">【总书记讲话】习近平：高举新时代改革开放旗帜 把改革开放不断推向深入</a></div>
+					        	<div class="clear" style="clear:both"></div> 
+					        </li>
+				      		<li>
+				      			<div class="point"> 　·　 </div>
+					        	<div class = "list_contain_li"><a href="">【总书记讲话】习近平：推动共建“一带一路”走深走实造福人民</a></div>
+					        	<div class="clear" style="clear:both"></div> 
+					        </li>
+				      		<li>
+				      			<div class="point"> 　·　 </div>
+					        	<div class = "list_contain_li"><a href="">【总书记讲话】习近平对首个“中国医师节”作出重要指示</a></div>
+					        	<div class="clear" style="clear:both"></div> 
+					        </li>
+				      
+				      	</ul>
+		       
+		          	</div>
+				</div>
+
+				<div class= "contain_2" style="width: 30%; float: left; margin-left: 5% ; margin-right: 5%; ">
+					<div class = "title">
+						<span class="font_title">网上公示</span> 
+						<span class="more" style="font-size: 10px; margin: 5px;"><a href="">更多...</a></span>
+					</div>
+
+					<div class = "list_contain">
+				      	<ul> 
+					        <li>
+					        	<div class="point"> 　·　 </div>
+					        	<div class = "list_contain_li"><a href="">关于开展义务植树活动的通知</a></div>
+					        	<div class="clear" style="clear:both"></div> 
+					        </li>
+					  		<li>
+					  			<div class="point"> 　·　 </div>
+					        	<div class = "list_contain_li"><a href="">工资收入和无收入证明</a></div>
+					        	<div class="clear" style="clear:both"></div> 
+					        </li>
+				      		<li>
+				      			<div class="point"> 　·　 </div>
+					        	<div class = "list_contain_li"><a href="">2019年度“双创路上党旗红”——流动党员公益专场招聘会即将开幕 把改革开放不断推向深入</a></div>
+					        	<div class="clear" style="clear:both"></div> 
+					        </li>
+				      		<li>
+				      			<div class="point"> 　·　 </div>
+					        	<div class = "list_contain_li"><a href="">关于组织报送生活困难党员情况的通知</a></div>
+					        	<div class="clear" style="clear:both"></div> 
+					        </li>
+				      		<li>
+				      			<div class="point"> 　·　 </div>
+					        	<div class = "list_contain_li"><a href="">关于开展“庆祝改革开放40周年”</a></div>
+					        	<div class="clear" style="clear:both"></div> 
+					        </li>
+					        <li>
+				      			<div class="point"> 　·　 </div>
+					        	<div class = "list_contain_li"><a href="">关于组织收听收看中央庆祝改革开放40周年大会和中宣部等部门庆祝改革开放40周年大型文艺晚会的通知</a></div>
+					        	<div class="clear" style="clear:both"></div> 
+					        </li>
+					       <li>
+				      			<div class="point"> 　·　 </div>
+					        	<div class = "list_contain_li"><a href="">关于举办2018年第四季度党课的通知</a></div>
+					        	<div class="clear" style="clear:both"></div> 
+					        </li>
+				      
+				      	</ul>
+		       
+		          	</div>
+
+				</div>
+
+				<div class= "contain_2" style="width: 30%; float: right; ">
+					<div class = "title">
+						<span class="font_title">党员文稿</span> 
+						<span class="more" style="font-size: 10px; margin: 5px;"><a href="">更多...</a></span>
+					</div>
+
+					<div class = "list_contain">
+				      	<ul> 
+					        <li>
+					        	<div class="point">　·　 </div>
+					        	<div class = "list_contain_li"><a href="">关于2019年慰问生活困难党员的公示</a></div>
+					        	<div class="clear" style="clear:both"></div> 
+					        </li>
+					  		<li>
+					  			<div class="point"> 　·　 </div>
+					        	<div class = "list_contain_li"><a href="">2018年转正名单</a></div>
+					        	<div class="clear" style="clear:both"></div> 
+					        </li>
+				      		<li>
+				      			<div class="point"> 　·　 </div>
+					        	<div class = "list_contain_li"><a href="">2017年第四批转正人员名单</a></div>
+					        	<div class="clear" style="clear:both"></div> 
+					        </li>
+				      		<li>
+				      			<div class="point"> 　·　 </div>
+					        	<div class = "list_contain_li"><a href="">2017年第三批转正人员名单</a></div>
+					        	<div class="clear" style="clear:both"></div> 
+					        </li>
+				      		<li>
+				      			<div class="point"> 　·　 </div>
+					        	<div class = "list_contain_li"><a href="">2017年第一批转正人员名单</a></div>
+					        	<div class="clear" style="clear:both"></div> 
+					        </li>
+					        <li>
+				      			<div class="point"> 　·　 </div>
+					        	<div class = "list_contain_li"><a href="">2017年第二批转正人员名单</a></div>
+					        	<div class="clear" style="clear:both"></div> 
+					        </li>
+					       <li>
+				      			<div class="point"> 　·　 </div>
+					        	<div class = "list_contain_li"><a href="">2017年第五批转正人员名单</a></div>
+					        	<div class="clear" style="clear:both"></div> 
+					        </li>
+				      
+				      	</ul>
+		       
+		          	</div>
+				</div>
+				<div class="clear" style="clear:both"></div> 
+			</div>
+
+			<div class ="bar" style="margin-bottom: 20px;">
+				<img src="./resource/background/middle_2.png"/>
+			</div>
+
+			<div class = "main_3" style="margin-bottom: 20px;">
+				<div style="width: 22%; float: left;margin: 0 auto; height: 300px;">
+					<img src="./resource/xi/xi1.jpg">
+					<a href="">追本溯源 融会贯通</a>
+				</div>
+				<div style="width: 22%; float: left;margin-left: 4% ; margin-right: 2%; height: 300px;">
+					<img src="./resource/xi/xi2.jpg">
+					<a href="">新语境·新格局·新境界</a>
+				</div>
+				<div style="width: 22%; float: left;margin-left: 2% ; margin-right: 4%; height: 300px; ">
+					<img src="./resource/xi/xi3.jpg">
+					<a href="">生态兴则文明兴 生态衰则文明衰</a>
+				</div>
+				<div style="width: 22%; float: left;margin: 0 auto; height: 300px;">
+					<img src="./resource/xi/xi4.jpg">
+					<a href="">抗震救灾英雄事迹报告</a>
+				</div>
+				<div class="clear" style="clear:both"></div> 
+			</div>
+		</div>
+
+		<!-- 网站底部 -->
+		<div class="fin" style="width: 100%;">
+			<div class="bottom_text_all">
+				<div class="bottom_text">版权所有©河北省人才党委</div>
+				<div class="bottom_text">维护单位：河北新龙科技集团股份有限公司</div>
+			</div>
+			<img src="./resource/background/bottom.png"/>
+		</div>
+
+	</div>
+</body>
+</html>

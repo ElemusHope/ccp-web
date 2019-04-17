@@ -1,0 +1,401 @@
+﻿*{
+	border:0px;
+	padding:0px;
+	margin:0px;
+	font-size: 12px;
+}
+
+body  {
+	font-family:宋体;
+	font-size:12px;
+	margin:0px;
+	text-align:center;
+	background-image: url(bg.gif);
+	background-repeat: repeat;
+}
+img,p {
+	border:0;
+	margin:0; 
+	padding:0;
+}
+ul, li {
+list-style: none;
+}
+input,select,button{
+	font-family:"宋体",arial; 
+	font-size:12px; 
+	vertical-align:middle;
+}
+.in {
+	border: 1px solid #CCCCCC;
+	height:20px;
+}
+.font_white{
+	font-size:14px; 
+	font-weight:bold; 
+	color:#FFF; 
+	text-align:center;
+}
+.font_red{
+	font-size:14px; 
+	font-weight:bold; 
+	color:#a43114; 
+	text-align:center;
+}
+.font_title{
+	font-size:14px;
+	font-weight:bold;
+	color:#a43114;
+	margin-left: 27px;
+	margin-top: 13px;
+	float: left;
+}
+.font_title2{
+	font-size:14px;
+	font-weight:bold;
+	color:#a43114;
+	margin-left: 27px;
+	margin-top: 8px;
+	float: left;
+}
+.font_oath{
+	font-size:12px;
+	color:#a43114;
+	line-height: 24px;
+}
+a:link{
+	text-decoration: none;
+	color: #ffffff;
+}
+a:hover{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:visited{
+	text-decoration: none;
+	color: #ffffff;
+}
+/*页容器*/
+#center{
+	width:1000px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#container{
+	width:1000px;
+	height:auto;
+	text-align:left;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-color: #FFF;
+	float: left;
+}
+/*banner*/
+#head {
+	width:1000px;
+	height:143px;
+	float: left;
+	margin-bottom: 0px;
+	background-image: url(banner.jpg);
+	background-repeat: no-repeat;
+}     
+/*nav*/
+#nav {
+	width:100%;
+	height:36px;
+	float: left;
+	margin-bottom: 0px;
+	background-image: url(head_bg2.gif);
+	background-repeat: repeat;
+	font-size: 12px;
+	line-height: 29px;
+	color: #FFFFFF;
+	font-weight: bold;
+	margin-top: 143px;
+}
+.nav_line{
+	background-image:url(nav_line.gif);
+	background-repeat:no-repeat;
+	background-position:left center;
+}
+/*第一部分*/
+#main_1{
+	width:980px;
+	height:280px;
+	background-color: #fff;
+	margin-left: 10px;
+	_margin-left: 5px;
+	float: left;
+	margin-top: 46px;
+	_margin-top: 10px;
+}
+
+#main_1 a{
+	text-decoration: none;
+	color: #000000;
+	font-size: 12px;
+}
+
+#main_1 a:hover{
+	text-decoration: underline;
+	color: #000000;
+}
+#main_1 a:visited{
+	text-decoration: none;
+	color: #000000;
+}
+.more {
+	margin-left: 430px;
+	margin-top: -10px;
+	float: left;
+}
+.announce{
+	width:240px;
+	height:236px;
+	background-image: url(announce_bg.jpg);
+	float: left;
+	display: block;
+}
+.news{
+	width:480px;
+	height:280px;
+	background-image: url(news_bg.jpg);
+	margin-left: 10px;
+	display: block;
+	float: left;
+}
+.news_li {
+float: left;
+width: 480px;
+display: list-item;
+padding-top: 15px;
+}
+.news_li .date {
+float: right;
+*margin-top:-13px;
+}
+.news_li li {
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #CCC;
+	float: left;
+	width: 450px;
+	height:20px;
+	margin-left: 15px;
+	_margin-left: 7px;
+	margin-top: 7px;
+}
+.right{
+	width:240px;
+	height:280px;
+	float: left;
+	display: block;
+	margin-left: 10px;
+}
+.oath{
+	width:240px;
+	height:200px;
+	background-image: url(oath.jpg);	
+}
+
+#photo_list{
+	width:980px;
+	height:180px;
+	margin-left: 10px;
+	_margin-left: 5px;
+	float: left;
+	margin-top: 10px;
+}
+#photo_list a{
+	text-decoration: none;
+	color: #000000;
+	font-size: 12px;
+}
+
+#photo_list a:hover{
+	text-decoration: none;
+	color: #000000;
+}
+#photo_list a:visited{
+	text-decoration: none;
+	color: #000000;
+}
+/*第二部分*/
+#main_2{
+	width:980px;
+	height:255px;
+	background-color: #fff;
+	margin-left: 10px;
+	_margin-left: 5px;
+	float: left;
+	margin-top: 10px;
+}
+#main_2 a{
+	text-decoration: none;
+	color: #000000;
+	font-size: 12px;
+}
+
+#main_2 a:hover{
+	text-decoration: underline;
+	color: #000000;
+}
+#main_2 a:visited{
+	text-decoration: none;
+	color: #000000;
+}
+.ranking{
+	width:240px;
+	height:255px;
+	float: left;
+	display: block;
+	background-image: url(ranking_bg.jpg);
+}
+.topnotice {
+	padding-top: 0px;
+	float: left;
+	width: 480px;
+	height:47px;
+	background-repeat: no-repeat;
+	background-position: top;
+	margin-top: 5px;
+}
+.notice{
+	width:480px;
+	height:255px;
+	background-image: url(news_bg.jpg);
+	margin-left: 10px;
+	display: block;
+	float: left;
+}
+.notice_li {
+float: left;
+width: 480px;
+display: list-item;
+padding-top: 0px;
+}
+.notice_li .date {
+float: right;
+*margin-top:-13px;
+}
+.notice_li li {
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #CCC;
+	float: left;
+	width: 450px;
+	height:20px;
+	margin-left: 15px;
+	_margin-left: 7px;
+	margin-top: 7px;
+}
+.study{
+	width:240px;
+	height:255px;
+	margin-left: 10px;
+	display: block;
+	float: left;
+	background-image: url(study_bg.jpg);
+}
+#ad{
+	width:980px;
+	height:91px;
+	background-color: #ffffff;
+	margin-left: 10px;
+	_margin-left: 5px;
+	float: left;
+	margin-top: 10px;
+}
+/*第三部分*/
+#main_3{
+	width:980px;
+	height:240px;
+	background-color: #fff;
+	margin-left: 10px;
+	_margin-left: 5px;
+	float: left;
+	margin-top: 10px;
+}
+#main_3 a{
+	text-decoration: none;
+	color: #000000;
+	font-size: 12px;
+}
+
+#main_3 a:hover{
+	text-decoration: underline;
+	color: #000000;
+}
+#main_3 a:visited{
+	text-decoration: none;
+	color: #000000;
+}
+.events_box{
+	width:320px;
+	height:240px;
+	display: block;
+	float: left;
+}
+.events_box2{
+	width:320px;
+	height:240px;
+	margin-left: 10px;
+	display: block;
+	float: left;
+}
+#deme_list{
+	width:980px;
+	height:180px;
+	background-color: #999;
+	margin-left: 10px;
+	_margin-left: 5px;
+	float: left;
+	margin-top: 10px;
+}
+#deme_list a{
+	text-decoration: none;
+	color: #000000;
+	font-size: 12px;
+}
+
+#deme_list a:hover{
+	text-decoration: none;
+	color: #000000;
+}
+#deme_list a:visited{
+	text-decoration: none;
+	color: #000000;
+}
+#bottom{
+	width:1000px;
+	height:80px;
+	background-image: url(bottom_bg.jpg);
+	float: left;
+	margin-top: 10px;
+	background-repeat: repeat-x;
+}
+#bottom a{
+	text-decoration: none;
+	color: #000000;
+	font-size: 12px;
+}
+
+#bottom a:hover{
+	text-decoration: underline;
+	color: #000000;
+}
+#bottom a:visited{
+	text-decoration: none;
+	color: #000000;
+}
+.tipText {
+	font-size: 12px;
+}
+div#divAlert {
+    display: none;
+}
